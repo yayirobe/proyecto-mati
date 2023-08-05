@@ -1,0 +1,72 @@
+.collapse navbar-collapse{
+    max-height: 400px; 
+        margin: 0 auto; 
+}
+
+.background-audio{
+    padding: 10px 20px;
+    background-color: #3498db;
+    justify-content: center;
+    align-items: center;
+    color: rgb(146, 45, 45);
+    border: #3498db;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.background-audio:hover {
+    background-color: #153144;
+}
+
+
+
+.accordion{
+    background-color: #cacaca;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    opacity: 1;
+  }
+
+  .whatsapp-icon {
+    position: fixed;
+    bottom: 5px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+    right: 5px; /* Ajusta la distancia desde el lado derecho según tus necesidades */
+    z-index: 10; /* Asegura que el ícono esté por encima de otros elementos */
+    width: 50px;
+    height: 50px;
+}
