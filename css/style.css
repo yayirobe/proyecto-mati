@@ -32,6 +32,24 @@
   align-items: center;
 }
 
+@media (max-width: 991.9px) {
+  .logos-container {
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .logos-container::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 
 
 
