@@ -1,24 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nosotros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    <section id="sobre-nosotros" class="py-5 bg-light">
-        <div class="container">
-            <h2 class="text-center">Sobre Nosotros</h2>
-            <p class="text-center">
-                ¡Bienvenidos a Ars Chordorum! En el corazón de nuestra tienda late la pasión por la música y el compromiso de proporcionar a músicos de todos los niveles las herramientas que necesitan para expresarse plenamente.
-                La música es una fuerza que puede unir a las personas y trascender las barreras lingüísticas y culturales. En Ars Chordorum, creemos en el poder de la música para inspirar, sanar y elevar el espíritu humano.
-            </p>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <!-- Imagen a la izquierda -->
+                <div class="navbar-brand">
+                    <a href="#">
+                        <img src="../images/logos/AnyConv.com__af61f0513bfcb43914bbd41fe7a414f2.webp"
+                            alt="Logo de la página" width="30" height="30" class="d-inline-block align-text-top">
+                    </a>
+                    <div>
+                        <audio controls class="audio">
+                            <source src="../song/2.mp3" type="audio/mp3">
+                        </audio>
+                    </div>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Elementos de navegación a la derecha -->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link " href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../pages/about.html">Sobre Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/guitars.html">Guitarras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/basses.html">Bajos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../pages/amplifiers.html">Amplificadores</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main class="container">
+        <section>
+            <div>
+                <h1 class="text-center">Sobre Nosotros</h1>
+            </div>
+            <div class="about-us">
+                <div class="card text-bg-light mb-6">
+                    <div class="card-header text-center">Historia</div>
+                    <div class="card-body">
+                        <p class="card-text">Hace más de dos décadas, un grupo de apasionados músicos se unió con un objetivo común: proporcionar a la comunidad musical instrumentos de calidad excepcional y servicios personalizados. Nuestra historia comenzó en una pequeña tienda local donde compartíamos la misma pasión por la música y la creencia de que cada músico merece tener acceso a instrumentos de alto rendimiento. A lo largo de los años, nuestra dedicación nos ha llevado a convertirnos en una referencia confiable en el mundo de los instrumentos musicales.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-light mb-6">
+                    <div class="card-header text-center">Misión</div>
+                    <div class="card-body">
+                        <p class="card-text">Nuestra misión es fomentar la creatividad y la expresión artística a través de la música, brindando a músicos de todos los niveles instrumentos excepcionales que los inspiren a alcanzar su máximo potencial. Nos esforzamos por ofrecer una selección diversa de instrumentos musicales de calidad premium, respaldados por un equipo experto que comparte la misma pasión y comprensión de las necesidades de los músicos.</p>
+                    </div>
+                </div>
+        
+                <div class="card card-tienda">
+                    <img src="../images/tienda/maxresdefault.webp" class="card-img-top img-tienda" alt="imagen-de-tienda">
+                    <div class="card-body">
+                      <p class="card-text">En el corazón de nuestra tienda reside un equipo de apasionados músicos y amantes de la música. Desde los músicos autodidactas hasta los experimentados profesionales, todos compartimos una profunda conexión con el poder transformador de la música.</p>
+                    </div>
+                </div>
+                <div class="tienda-contacto">
+                    <section>
+                        <h2 class="text-center">Ubicación</h2>
+                        <div>
+                            <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53559.22931057428!2d-60.71748192531936!3d-32.96547919790358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab5ae7840e5d%3A0xc9ea61bff276677f!2sOliveira%20Marisa%20Instrumentos%20Musicales!5e0!3m2!1ses-419!2sar!4v1691456125457!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </section>
+                    <section class="contacto">
+                        <h1>Contacto</h1>
+                        <p>¡Estamos aquí para responder tus preguntas! Contáctanos completando el formulario a continuación:</p>
+                        
+                        <form class="formulario">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                            
+                            <label for="correo">Correo Electrónico:</label>
+                            <input type="email" id="correo" name="correo" required>
+                            
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" required></textarea>
+                            
+                            <button type="button">Enviar</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+    </main>
+        <!-- <div class="whatsapp-icon">
+            <a href="https://api.whatsapp.com/send?phone=NUMERO_DE_TELEFONO" target="_top">
+                <img src="./images/logos/AnyConv.com__pngwing.com.webp" alt="Ícono de WhatsApp">
+            </a>
+        </div> -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2023 ARS INSTRUMENTS . Todos los derechos reservados.</p>
+            <p>Las imágenes son meramente ilustrativas.</p>
+            <p>Algunos productos, accesorios o características incluidas en las imágenes, pueden variar con respecto a las versiones comercializadas y/o disponibles en Argentina.</p>
+            <div class="social-icons">
+                <a href="#"><img src="../images/logos/AnyConv.com__facebook.webp" alt="Facebook"></a>
+                <a href="#"><img src="../images/logos/AnyConv.com__wp (1).webp" alt="whatsapp"></a>
+                <a href="#"><img src="../images/logos/AnyConv.com__instagram.webp" alt="Instagram"></a>
+            </div>
         </div>
-        <div class="background-audio">
-            <audio controls autoplay>
-                <source src="../song/2.mp3" type="audio/mp3"> 
-            </audio>
-        </div>
-    </section>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

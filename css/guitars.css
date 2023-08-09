@@ -1,0 +1,61 @@
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .audio{
+    height: 30px;
+    width: 250px;
+  }
+  
+  .logo-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+ 
+
+
+  .guitarras-container{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  }
+
+.footer {
+    background-color: #9bb8ba;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+  }
+  
+  .social-icons img:hover {
+    opacity: 1;
+  }
