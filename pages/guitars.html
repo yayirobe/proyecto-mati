@@ -1,135 +1,200 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guitarras</title>
-    <!-- <link rel="stylesheet" href="../index.html"> -->
-    <link rel="stylesheet" href="../css/guitars.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guitarras</title>
+  <!-- <link rel="stylesheet" href="../index.html"> -->
+  <link rel="stylesheet" href="../css/guitars.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <!-- Imagen a la izquierda -->
-                <div class="navbar-brand">
-                    <a  href="#">
-                        <img src="../images/logos/AnyConv.com__af61f0513bfcb43914bbd41fe7a414f2.webp" alt="Logo de la página" width="30" height="30" class="d-inline-block align-text-top">
-                    </a>
-                    <div>
-                        <audio controls class="audio">
-                            <source src="../song/2.mp3" type="audio/mp3"> 
-                        </audio>
-                    </div>
-                </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
-                <!-- Elementos de navegación a la derecha -->
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/about.html">Sobre Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../pages/guitars.html">Guitarras</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/basses.html">Bajos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../pages/amplifiers.html">Amplificadores</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <!-- Imagen a la izquierda -->
+        <div class="navbar-brand">
+          <a  href="#">
+            <img src="../images/logos/AnyConv.com__af61f0513bfcb43914bbd41fe7a414f2.webp" alt="Logo de la página" width="30" height="30" class="d-inline-block align-text-top">
+          </a>
+          <div>
+            <audio controls class="audio">
+              <source src="../song/2.mp3" type="audio/mp3"> 
+            </audio>
+          </div>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Elementos de navegación a la derecha -->
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/about.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="../pages/guitars.html">Guitarras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/basses.html">Bajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pages/amplifiers.html">Amplificadores</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container">
     <section id="guitarras" class="py-5">
-        <div class="container">
-            <div class="guitarras-acusticas">
-                 <h2 class="text-left">Guitarras Acusticas</h2>
-                    <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="../images/guitarras/guitarraelectrocriolla.webp" class="img-fluid rounded-start" alt="imagen-1">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Guitarras Electrocriollas </h5>
-                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <img src="../images/guitarras/fender.webp" class="img-fluid rounded-start" alt="imagen-2">
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">Guitarra Electroacústica Fender</h5>
-                          <p class="card-text">Descubrí el sonido cálido y potente de la guitarra Fender Mahogany. Esta guitarra electroacústica de Fender es ideal para los amantes de la música que buscan una calidad excepcional.</p>
-                          <p class="card-text"><small class="text-body-secondary">Fender CD-60SCE All Mahogany</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-2">
-                        <img src="../images/guitarras/guitarraibañez.webp" class="img-fluid rounded-start" alt="imagen-3">
-                      </div>
-                      <div class="col-md-10">
-                        <div class="card-body">
-                          <h5 class="card-title">Guitarra Electroacústica Ibañez</h5>
-                          <p class="card-text">Las guitarras de la serie PF Performance te brindan características profesionales, además de la alta calidad y el gran sonido a precios extremadamente económicos, respaldados por el nombre y la calidad de la excelente marca Ibanez.</p>
-                          <p class="card-text"><small class="text-body-secondary">Ibanez AEQ-2T</small></p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-            </div>                                   
+      <div>
+        <h2 class="text-center">Guitarras Acusticas</h2>
+        <div class="guitarras-acusticas">
+          <div class="card">
+            <img src="../images/guitarras/guitarraelectrocriolla.webp" class="img-fluid rounded-start guitarra-img" alt="imagen-1">
+            <div class="card-body guitarra-body">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalElectrocriollas">
+                Guitarras Electrocriollas
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../images/guitarras/fender.webp" class="img-fluid rounded-start guitarra-img" alt="imagen-2">
+            <div class="card-body guitarra-body">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#electroacusticafender">
+                Fender CD-60SCE All Mahogany
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="../images/guitarras/guitarraibañez.webp" class="img-fluid rounded-start guitarra-img" alt="imagen-3">
+            <div class="card-body guitarra-body">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#electroacusticaibañez">
+                Ibanez AEQ-2T
+              </button>
+            </div>
+          </div>
+        </div>                                   
+      </div>
+      
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="modalElectrocriollas" tabindex="-1" aria-labelledby="modalElectrocriollasLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="modalElectrocriollasLabel">Guitarras Electrocriollas</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Las guitarras electrocriollas, también conocidas como guitarras electroacústicas criollas, son instrumentos que combinan características de las guitarras criollas tradicionales con la capacidad de amplificación y reproducción eléctrica. Son ideales para músicos que desean tocar en una variedad de entornos, desde actuaciones en solitario hasta presentaciones en vivo con una banda, ya que pueden ser tocadas tanto de manera acústica como conectadas a un amplificador.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
         </div>
-        <div class="container.video">
-        <h1>Nuestra Fender CD-60SCE All Mahogany</h1>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pHWsRO99mHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="electroacusticafender" tabindex="-1" aria-labelledby="electroacusticafenderLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="electroacusticafenderLabel">Guitarra electroacústica Fender</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="card-text">Descubrí el sonido cálido y potente de la guitarra Fender Mahogany. Esta guitarra electroacústica de Fender es ideal para los amantes de la música que buscan una calidad excepcional.</p>
+            <p class="card-text"><small class="text-body-secondary">Fender CD-60SCE All Mahogany</small></p>
+            <div class="container.video">
+              <h5>Nuestra Fender CD-60SCE All Mahogany</h5>
+              <iframe src="https://www.youtube-nocookie.com/embed/pHWsRO99mHo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
         </div>
-      </section>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="electroacusticaibañez" tabindex="-1" aria-labelledby="electroacusticaibañezLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="electroacusticaibañezLabel">Ibanez AEQ-2T</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="card-text">Las guitarras de la serie PF Performance te brindan características profesionales, además de la alta calidad y el gran sonido a precios extremadamente económicos, respaldados por el nombre y la calidad de la excelente marca Ibanez.</p>
+            <p class="card-text"><small class="text-body-secondary">Ibanez AEQ-2T</small></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <section class="container">
       <h2 class="text-center">¿QUE HAY DE NUEVO?</h2>
       <h3 class="text-center">Nuevos lanzamientos</h3>
-      <div class="guitarras-container">
-        
-          <img src="../images/guitarras electricas/0113900719_fen_ins_frt_1_rr.webp" alt="img1">
-          <img src="../images/guitarras electricas/0140262326_fen_ins_frt_1_rr.webp" alt="img2">
-          <img src="../images/guitarras electricas/LimitedED.webp" alt="img3">
-          <img src="../images/guitarras electricas/paranormal-Esquire.webp" alt="img4">
-          
-      </div>
-  </section>
-    
-    <footer class="footer">
-        <div class="footer-content">
-            <p>&copy; 2023 ARS INSTRUMENTS . Todos los derechos reservados.</p>
-            <div class="social-icons">
-                <a href="#"><img src="../images/logos/AnyConv.com__facebook.webp" alt="Facebook"></a>
-                <a href="#"><img src="../images/logos/AnyConv.com__wp (1).webp" alt="whatsapp"></a>
-                <a href="#"><img src="../images/logos/AnyConv.com__instagram.webp" alt="Instagram"></a>
-            </div>
+      
+      <div class="lanzamientos">
+        <div class="lanzamiento-card">
+          <img class="lanzamiento-img img-fluid" src="../images/guitarras electricas/0113900719_fen_ins_frt_1_rr.webp" alt="img1">
+          <div class="lanzamiento-card-body">
+            <h5 class="card-title">Pure Silver Coin, Daphne Blue Stratocaster™</h5>
+            <p class="card-text">Daphne Blue comenzó como un color de GM Cadillac en 1958, solo dos años después se convirtió en un color popular para la Stratocaster®. Esta moneda de plata pura de 1 onza con forma de guitarra representa perfectamente este color clásico, un guiño a las Stratocaster® originales. Daphne Blue es el último número de la serie.</p>
+          </div>
         </div>
-    </footer>
+        <div class="lanzamiento-card">
+          <img class="lanzamiento-img img-fluid" src="../images/guitarras electricas/0140262326_fen_ins_frt_1_rr.webp" alt="img2">
+          <div class="lanzamiento-card-body">
+            <h5 class="card-title">Player Telecaster® HH</h5>
+            <p class="card-text">La Player Telecaster HH "humbucker-humbucker", es un modelo de guitarra eléctrica ofrecido por Fender como parte de su serie Player. La serie Player se caracteriza por ofrecer instrumentos de alta calidad a un precio más asequible en comparación con los modelos fabricados en Estados Unidos por Fender.</p>
+          </div>
+        </div>
+        <div class="lanzamiento-card">
+          <img class="lanzamiento-img img-fluid" src="../images/guitarras electricas/LimitedED.webp" alt="img3">
+          <div class="lanzamiento-card-body">
+            <h5 class="card-title">Limited Edition Squier Sonic™ Stratocaster® HT</h5>
+            <p class="card-text">La Squier Sonic™ Stratocaster® HT está lista para lanzar cualquier aventura musical a la velocidad de la luz, ofreciendo el estilo icónico de Fender® y un tono inspirador para los músicos en cualquier etapa. Esta Strat® luce un perfil de mástil delgado y atractivo en forma de "C" y un cuerpo delgado y liviano para una comodidad óptima al tocar, mientras que un trío de pastillas de bobina simple Squier® repican con claridad cristalina para una amplia variedad de tonos versátiles.</p>
+          </div>
+        </div>
+        <div class="lanzamiento-card">
+          <img class="lanzamiento-img img-fluid" src="../images/guitarras electricas/paranormal-Esquire.webp" alt="img4">
+          <div class="lanzamiento-card-body">
+            <h5 class="card-title">Paranormal Esquire® Deluxe</h5>
+            <p class="card-text">La Paranormal Esquire® Deluxe reproduce cómo habría sido el primer modelo de Fender se hubiera hecho en la década de 1970, combinando la simplicidad de una sola pastilla con una funcionalidad innovadora y las claves de estilo de la época. Se puede acceder a las múltiples personalidades tonales de la pastilla Wide Range diseñada por Fender a través del interruptor giratorio de 3 vías que selecciona bobina simple, humbucking o humbucking sin pasar por volumen y tono.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
     
-        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
-</body>
-</html>
+    
+    
+  <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2023 ARS INSTRUMENTS . Todos los derechos reservados.</p>
+        <p>Las imágenes son meramente ilustrativas.</p>
+        <p>Algunos productos, accesorios o características incluidas en las imágenes, pueden variar con respecto a las versiones comercializadas y/o disponibles en Argentina.</p>
+        <div class="social-icons">
+            <a href="#"><img src="../images/logos/AnyConv.com__facebook.webp" alt="Facebook"></a>
+            <a href="#"><img src="../images/logos/AnyConv.com__wp (1).webp" alt="whatsapp"></a>
+            <a href="#"><img src="../images/logos/AnyConv.com__instagram.webp" alt="Instagram"></a>
+        </div>
+    </div>
+</footer>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  </body>
+  </html>
