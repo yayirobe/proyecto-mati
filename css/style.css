@@ -15,6 +15,10 @@
   gap: 30px;
 }
 
+.logo{
+  width: 50px;
+  height: 50px;
+}
 .audio{
   height: 30px;
   width: 250px;
@@ -37,9 +41,20 @@
     justify-content: flex-start;
     overflow-x: auto;
   }
-
+  
+  .menu-item{
+    font-size: 15px;
+  }
+  
   .logos-container::-webkit-scrollbar{
     display: none;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .audio{
+    height: 30px;
+    width: 150px;
   }
 }
 
@@ -55,47 +70,47 @@
 
 
 .footer {
-    margin-top: 30px;
-    background-color: #9bb8ba;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
-  
-  .social-icons {
-    margin-top: 10px;
-  }
-  
-  .social-icons a {
-    display: inline-block;
-    margin: 0 10px;
-  }
-  
-  .social-icons img {
-    width: 30px;
-    height: 30px;
-    opacity: 0.7;
-    transition: opacity 0.3s ease;
-  }
-  
-  .social-icons img:hover {
-    opacity: 1;
-  }
+  margin-top: 30px;
+  background-color: #9bb8ba;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
 
-  .whatsapp-icon {
-    position: fixed;
-    bottom: 5px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
-    right: 5px; /* Ajusta la distancia desde el lado derecho según tus necesidades */
-    z-index: 10; /* Asegura que el ícono esté por encima de otros elementos */
-    width: 50px;
-    height: 50px;
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.social-icons img:hover {
+  opacity: 1;
+}
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 5px; /* Ajusta la distancia desde la parte inferior según tus necesidades */
+  right: 5px; /* Ajusta la distancia desde el lado derecho según tus necesidades */
+  z-index: 10; /* Asegura que el ícono esté por encima de otros elementos */
+  width: 50px;
+  height: 50px;
 }

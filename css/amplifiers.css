@@ -1,24 +1,24 @@
 .carousel-img {
-    width: 100%;
-    height: 200px!important;
-    object-fit: cover;
-  }
-  
-  .carousel-inner {
-    border-radius: 10px;
-  }
+  width: 100%;
+  height: 200px!important;
+  object-fit: cover;
+}
 
-  .grilla-amplificadores{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-  }
+.carousel-inner {
+  border-radius: 10px;
+}
 
-  .amplificador{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
+.grilla-amplificadores{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+.amplificador{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

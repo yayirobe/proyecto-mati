@@ -25,7 +25,7 @@
 .contacto{
   display: flex;
   flex-direction: column;
-  }
+}
 
 .formulario{
   display: flex;
@@ -42,7 +42,7 @@
   .formulario{
     width: 100%;
   }
-
+  
   .tienda-contacto {
     flex-direction: column;
   }
